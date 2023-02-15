@@ -2,19 +2,62 @@
 <html>
 <head>
 <link rel="stylesheet" href="mystyle.css">
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        
+    }
+    .cuh {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .desc {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #psize {
+        width: 250px;
+        text-align: justify;
+        border: thin solid white;
+        word-wrap: break-word;
+    }
+</style>
 </head>
-<body>
-    <div>
-        <span style="text-align:center">
-            <h1>Hello World</h1>
-        </span>
-        <span>
-            <p>
-                hi start of project
-            </p>
-        </span>
-        <a href="pfpics.html">pfpics</a>
+<body style="font-family: monospace">
+    <div class="cuh desc">
+        <a href="#"; font-size="20px">link #1</a>
+        <a href="#">link #2</a>
+        <a href="#">link #3</a>
     </div>
+    <div class="cuh">    
+        <div class="flex">
+            <a href="https://en.wikipedia.org/wiki/Loona" target="_blank"><img src="file:///C:/Users/Bryan%20Nguyen/Pictures/pfp/girlgroups/Loona/chuu5.jpg" alt="", width=250px ></a>
+            <p class="desc">hi this is project</p>
+            
+            
+        </div>
+        <div class="flex psize">
+            <img src="file:///C:/Users/Bryan%20Nguyen/Pictures/pfp/girlgroups/Loona/chuuye.jpg" alt="", width=250px >
+            <p id="psize">
+                Hello this is a picture of Chuu from LOONA and also Kanye. 
+            </p>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/NewJeans" target="_blank"><img src="file:///C:/Users/Bryan%20Nguyen/Pictures/pfp/girlgroups/newjeans/haerin2.jpg" alt="", width=250px></a>   
+            <p class="desc">BLEHHHHHHHHH</p>
+        </div>
+    </div>
+
+    <a href="pfpics.html">lil album of profile pics</a> <br>
+    <img src="" alt="project #1">
 
 </body> 
 </html>
