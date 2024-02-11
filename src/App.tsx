@@ -45,13 +45,13 @@ function App() {
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYes(true)}
               >
-                Yes
+                yes :D
               </button>
               <button
                 className="noButton px-5 rounded-lg shadow-lg"
                 onClick={handleNoPress}
               >
-                No
+                no :(
               </button>
             </div>
           </>
