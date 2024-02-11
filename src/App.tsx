@@ -16,7 +16,7 @@ function App() {
       <div className="valentine-container bg-gradient-to-bl from-pink-300 to-red-600">
         {yes ? (
           <>
-            <div className="flex flex-row">
+            <div className="flex flex-row flex-wrap">
               <img
                 alt="bear"
                 src="https://media.tenor.com/g0Ikld3g1TwAAAAi/z.gif"
