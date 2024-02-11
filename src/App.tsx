@@ -48,12 +48,17 @@ function App() {
                 yes :D
               </button>
               <button
-                className="noButton px-5 rounded-lg shadow-lg"
+                className="noButton px-5 rounded-lg shadow-lg visible"
                 onClick={handleNoPress}
               >
                 no :(
               </button>
             </div>
+            <img
+              className="w-64 object-bottom"
+              alt="please cat"
+              src="https://i.pinimg.com/originals/42/61/ec/4261ec8b20a4ec6f9cf047250024371f.gif"
+            />
           </>
         )}
       </div>
