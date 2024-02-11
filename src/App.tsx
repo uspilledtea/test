@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className="valentine-container">
+      <div className="valentine-container bg-gradient-to-bl from-pink-300 to-red-600">
         {yes ? (
           <>
             <div className="flex flex-row">
