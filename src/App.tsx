@@ -45,14 +45,14 @@ function App() {
             <div className="text">Will u be my valentine?</div>
             <div>
               <button
-                className="yesButton px-5 rounded-lg shadow-xl bg-pink-300"
+                className="yesButton px-5 rounded-lg shadow-xl bg-pink-300 active:bg-pink-400"
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYes(true)}
               >
                 yes :D
               </button>
               <button
-                className="noButton px-5 rounded-lg shadow-lg visible bg-pink-300"
+                className="noButton px-5 rounded-lg shadow-lg visible bg-pink-300 md:hover:bg-pink400 active:bg-pink-400"
                 onClick={handleNoPress}
               >
                 no :(
