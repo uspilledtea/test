@@ -28,6 +28,10 @@ function App() {
             </div>
             <div className="text subpixel-antialiased">OK YAY!!!!</div>
             <div className="text subpixel-antialiased"> I LOVE U!!!</div>
+            <img
+              alt="happycat"
+              src="https://media.tenor.com/CnP64S7lszwAAAAi/meme-cat-cat-meme.gif"
+            />
           </>
         ) : (
           <>
@@ -41,14 +45,14 @@ function App() {
             <div className="text">Will u be my valentine?</div>
             <div>
               <button
-                className="yesButton px-5 rounded-lg shadow-xl"
+                className="yesButton px-5 rounded-lg shadow-xl bg-pink-300"
                 style={{ fontSize: yesButtonSize }}
                 onClick={() => setYes(true)}
               >
                 yes :D
               </button>
               <button
-                className="noButton px-5 rounded-lg shadow-lg visible"
+                className="noButton px-5 rounded-lg shadow-lg visible bg-pink-300"
                 onClick={handleNoPress}
               >
                 no :(

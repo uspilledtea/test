@@ -1,9 +1,9 @@
 {
-  "name": "valentines",
+  "name": "test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://uspilledtea.github.io/valentines",
+  "homepage": "https://uspilledtea.github.io/test",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
